@@ -1,0 +1,91 @@
+@mixin title-large {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: monospace;
+  line-height: 1;
+}
+
+@mixin border-box {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@mixin separador($color) {
+  &::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: $color;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+
+$cor-primaria: #ff00dd;
+$font-primaria: monospace;
+$gutter: 60px;
+
+section {
+    max-width: 600px;
+    margin: 0 auto;
+    @include border-box();
+}
+
+.modal {
+    h2 {
+        color: $cor-primaria;
+        font-family: $font-primaria;
+        margin-bottom: $gutter;
+        @include title-large;
+        @include separador(#84E);
+        @include mobile {
+          color:  blue;
+          border: 2px solid greenyellow;
+          background: #fff;
+        };
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+        max-width: 400px;
+        font-family: $font-primaria;
+    }
+    
+    a {
+        display: block;
+        max-width: 120px;
+        padding: 10px;
+        border-radius: 4px;
+        text-align: center;
+        background: $cor-primaria;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $font-primaria;
+    }
+}
+
+ul {
+    padding: 0;
+    li {
+        display: inline-block;
+        list-style: none;
+        a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            background-color: #ff70ec;
+            color: #fff;
+            border-radius: 5px;
+            font-family: $font-primaria;
+            font-weight: bolder;
+        }
+    }
+}

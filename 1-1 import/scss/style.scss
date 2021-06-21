@@ -1,0 +1,12 @@
+@import "colors";
+@import "buttons";
+
+$preto: #999;
+$altura: 300px;
+$largura: 300px;
+
+div {
+    background: $preto;
+    width: $altura;
+    height: $altura;
+}

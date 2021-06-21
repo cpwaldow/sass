@@ -1,0 +1,19 @@
+$cor-primaria: #ff00dd;
+$font-primaria: monospace;
+
+a {
+    display: block;
+    max-width: 120px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    background: $cor-primaria;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font-primaria;
+    &:hover {
+        background: #fffb00;
+        color: #000;
+    }
+}

@@ -31,13 +31,13 @@ $cor-primaria: #ff00dd;
 $font-primaria: monospace;
 $gutter: 60px;
 
-section {
+.modal {
+  section {
     max-width: 600px;
     margin: 0 auto;
     @include border-box();
 }
 
-.modal {
     h2 {
         color: $cor-primaria;
         font-family: $font-primaria;
@@ -46,8 +46,8 @@ section {
         @include separador(#84E);
         @include mobile {
           color:  blue;
-          border: 2px solid greenyellow;
-          background: #fff;
+          border: 2px solid #899c6c;
+          background: #84E;
         };
     }
     

@@ -1,2 +1,16 @@
-a{display:block;max-width:120px;padding:10px;border-radius:4px;text-align:center;background:#f0d;color:white;text-decoration:none;text-transform:uppercase;font-family:monospace}a:hover{background:#fffb00;color:#000}section{max-width:600px;margin:0 auto}.modal h2{color:#f0d;font-family:monospace;margin-bottom:60px}.modal p{font-size:1.2rem;line-height:1.4;max-width:400px;font-family:monospace}ul{padding:0;text-align:center}ul li{display:inline-block;list-style:none}
+a { display: block; max-width: 120px; padding: 10px; border-radius: 4px; text-align: center; background: #ff00dd; color: white; text-decoration: none; text-transform: uppercase; font-family: monospace; }
+
+a:hover { background: #fffb00; color: #000; }
+
+section { max-width: 600px; margin: 0 auto; }
+
+.modal { /*a { display: block; max-width: 120px; padding: 10px; border-radius: 4px; text-align: center; background: $cor-primaria; color: white; text-decoration: none; text-transform: uppercase; font-family: $font-primaria; }*/ }
+
+.modal h2 { color: #ff00dd; font-family: monospace; margin-bottom: 60px; }
+
+.modal p { font-size: 1.2rem; line-height: 1.4; max-width: 400px; font-family: monospace; }
+
+ul { padding: 0; text-align: center; }
+
+ul li { display: inline-block; list-style: none; /*a { display: block; padding: 10px; text-decoration: none; background-color: #ff70ec; color: #fff; border-radius: 5px; font-family: $font-primaria; font-weight: bolder; }*/ }
 /*# sourceMappingURL=style.css.map */

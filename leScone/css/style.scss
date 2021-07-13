@@ -1,8 +1,7 @@
-@import 'scss/reset';
+//@import 'scss/reset';
 @import 'scss/grid';
 
 div {
-  background: rgba(0,0,0,0.4);
-  min-height: 50px !important;
-  margin-bottom: 10px;
+  font-family: 'PT Mono', monospace;
+  font-family: 'Aref Ruqaa', serif;
 }

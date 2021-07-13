@@ -5,9 +5,91 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Le Scope</title>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <main class="container intro">
+    <div class="grid-5">
+      <img class="logo" src="img/lescone.png" alt="Le Scone">
+      <div class="intro-info">
+          <p>De Seg. à Sab. <span class="aberto"></span> <br> das 07:00h às 18:00h</p>
+          <p>Rua Flórida, 1595 <br> São Paulo - SP</p>
+      </div>
+      <div>
+        <p class="intro-telefone">+55 11 2627-5000</p>
+      </div>
+    </div>
+    <div class="grid-7">
+      <img src="img/foto.jpg" alt="Foto de Le Scone">
+    </div>
+  </main>
+
+  <section class="container menu">
+    <h1 class="grid-5 titulo">Menu</h1>
+    <div class="grid-7">
+      <div class="menu-item">
+        <img src="img/prato-1.png" alt="Foto Prato 1">
+        <h2>Entradas</h2>
+        <ul>
+          <li><span>R$ 1.70</span> Ovos Mexidos</li>
+          <li><span>R$ 2.70</span> Scone de Frutas</li>
+          <li><span>R$ 3.70</span> Joelho de Queijo</li>
+          <li><span>R$ 4.70</span> Presunto cozido</li>
+          <li><span>R$ 4.70</span> Coxinha de frango</li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <img src="img/prato-2.png" alt="Foto Prato 2">
+        <h2>Pratos Principais</h2>
+        <ul>
+          <li><span>R$ 11.70</span> Penne com Mignon</li>
+          <li><span>R$ 22.70</span> Feijoada</li>
+          <li><span>R$ 33.70</span> Costela ao molho</li>
+          <li><span>R$ 14.70</span> Medalhão de Frango</li>
+          <li><span>R$ 14.70</span> Coxinha de frango</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <Section class="container contato">
+    <h1 class="grid-5">Contato</h1>
+    <div class="grid-7">
+      <form>
+        <label>Nome</label>
+        <input type="text">
+        <div class="row">
+          <div class="grid-7">
+            <label>E-mail</label>
+            <input type="text">
+          </div>
+          <div class="grid-5">
+            <label>Telefone</label>
+            <input type="text">
+          </div>
+        </div>
+        <label>Mensagem</label>
+        <textarea></textarea>
+        <input type="button" value="Enviar" class="button">
+      </form>
+      <div class="contato-info">
+        <p>contato@lescone.com ////</p>
+        <p>+ 55 11 2627-5010 ////</p>
+      </div>
+      <iframe class="contato-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.898713825158!2d-46.69517628739875!3d-23.60796518465971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50cb40a123ed%3A0xa0ebe99a56639672!2sR.%20Fl%C3%B3rida%2C%201595%20-%20Cidade%20Mon%C3%A7%C3%B5es%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004565-001!5e0!3m2!1spt-BR!2sbr!4v1626201901141!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </Section>
+
+  <footer>
+    <div class="container">
+      <p>Le Scope @ 1989 - 2021. Todos os direitos reservados</p>
+      <a href="http://www.reclameaqui.com.br" target="_blank">
+        <img src="img/lescone-icone.png" alt="Le Scone Icone">
+      </a>
+    </div>
+  </footer>
+
 </body>
 </html>

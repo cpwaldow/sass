@@ -9,12 +9,12 @@
   <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="isOpen()">
   <main class="container intro">
     <div class="grid-5">
       <img class="logo" src="img/lescone.png" alt="Le Scone">
       <div class="intro-info">
-          <p>De Seg. à Sab. <span class="aberto"></span> <br> das 07:00h às 18:00h</p>
+          <p>De Seg. à Sab. <span id="funcionamento"></span> <br> das 07:00h às 18:00h</p>
           <p>Rua Flórida, 1595 <br> São Paulo - SP</p>
       </div>
       <div>
@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="grid-7">
-      <img src="img/foto.jpg" alt="Foto de Le Scone">
+      <img src="img/foto.jpg" alt="Foto de Le Scone" class="intro-foto">
     </div>
   </main>
 
@@ -92,4 +92,5 @@
   </footer>
 
 </body>
+<script src="script.js"></script>
 </html>

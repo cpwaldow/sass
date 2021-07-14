@@ -1,7 +1,5 @@
-//@import 'scss/reset';
+@import 'scss/reset';
 @import 'scss/grid';
-
-div {
-  font-family: 'PT Mono', monospace;
-  font-family: 'Aref Ruqaa', serif;
-}
+@import 'scss/variaveis-e-mixins';
+@import 'scss/geral';
+@import 'scss/intro'
